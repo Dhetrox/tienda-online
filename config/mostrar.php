@@ -1,6 +1,6 @@
 <?php 
 include("con-db.php");
-$consulta="SELECT * FROM pedidos";?>
+$consulta="SELECT cliente, producto, precio FROM pedidos Where id_pedido= 18";?>
 <table class="table">
 		<thead>
 
