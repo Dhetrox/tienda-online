@@ -6,23 +6,36 @@
 <hr class="my-2">
 </div>
 
+
 <div class="row">
 <div class="col-md-3">
 <div class="card mx-4">
     <img class="card-img-top" src="img/baño de crema.png">
     <div class="card-body">
-        <h4 class="card-title" id="1">baño de crema</h4>
-        <a class="btn btn-primary btn-lg" href="Jumbo action link" name="baño" role="button">agregar a carrito</a>
+        <h4 class="card-title">baño de crema</h4>
+        <form class="product-form" action="config/agre_eli.php" method="post">
+        <input type="hidden" name="producto_nombre" value="baño de crema" />
+        <input type="hidden" name="producto_precio" value="200" />
+        <input type="hidden" name="producto_id" value="1" />
+        <input type="submit" value="Agregar al carrito" />
+        </form>
     </div>
 </div>
 </div>
+
+
 
 <div class="col-md-3">
 <div class="card mx-4">
     <img class="card-img-top" src="img/aseite.png">
     <div class="card-body">
-        <h4 class="card-title" id="3">Aceite</h4>
-        <a class="btn btn-primary btn-lg" href="Jumbo action link" name="aceite" role="button">agregar a carrito</a>
+        <h4 class="card-title">Aceite</h4>
+        <form class="product-form" action="config/agre_eli.php" method="post">
+        <input type="hidden" name="producto_nombre" value="Aceite" />
+        <input type="hidden" name="producto_precio" value="200" />
+        <input type="hidden" name="producto_id" value="2" />
+        <input type="submit" value="Agregar al carrito" />
+        </form>
     </div>
 </div>
 </div>
@@ -33,8 +46,13 @@
 <div class="card mx-4">
     <img class="card-img-top" src="img/shampoo.png">
     <div class="card-body">
-        <h4 class="card-title" id="6">shampoo</h4>
-        <a class="btn btn-primary btn-lg" href="Jumbo action link" name="shampoo" role="button">agregar a carrito</a>
+        <h4 class="card-title">shampoo</h4>
+        <form class="product-form" action="config/agre_eli.php" method="post">
+        <input type="hidden" name="producto_nombre" value="Shampoo" />
+        <input type="hidden" name="producto_precio" value="200" />
+        <input type="hidden" name="producto_id" value="3" />
+        <input type="submit" value="Agregar al carrito" />
+        </form>
     </div>
 </div>
 </div>
@@ -47,13 +65,19 @@
 <hr class="my-2">
 </div>
 
+
 <div class="row">
 <div class="col-md-3">
 <div class="card mx-4">
     <img class="card-img-top" src="img/maquillaje.png">
     <div class="card-body">
-        <h4 class="card-title" id="2">combo de maquillaje</h4>
-        <a class="btn btn-primary btn-lg" href="Jumbo action link" name="maquillaje" role="button">agregar a carrito</a>
+        <h4 class="card-title">combo de maquillaje</h4>
+        <form class="product-form" action="config/agre_eli.php" method="post">
+        <input type="hidden" name="producto_nombre" value="combo de maquillaje" />
+        <input type="hidden" name="producto_precio" value="200" />
+        <input type="hidden" name="producto_id" value="4" />
+        <input type="submit" value="Agregar al carrito" />
+        </form>
     </div>
 </div>
 </div>
@@ -63,18 +87,30 @@
 <div class="card mx-4">
     <img class="card-img-top" src="img/pulpito.png">
     <div class="card-body">
-        <h4 class="card-title" id="4">pilpito</h4>
-        <a class="btn btn-primary btn-lg" href="Jumbo action link" name="pulpito" role="button">agregar a carrito</a>
+        <h4 class="card-title">pilpito</h4>
+        <form class="product-form" action="config/agre_eli.php" method="post">
+        <input type="hidden" name="producto_nombre" value="pilpito" />
+        <input type="hidden" name="producto_precio" value="200" />
+        <input type="hidden" name="producto_id" value="5" />
+        <input type="submit" value="Agregar al carrito" />
+        </form>
     </div>
 </div>
 </div>
+
+
 
 <div class="col-md-3">
 <div class="card mx-4">
     <img class="card-img-top" src="img/set de tintura.png">
     <div class="card-body">
-        <h4 class="card-title" id="5">set de tintura</h4>
-        <a class="btn btn-primary btn-lg" href="Jumbo action link" name="set" role="button">agregar a carrito</a>
+        <h4 class="card-title">set de tintura</h4>
+        <form class="product-form" action="config/agre_eli.php" method="post">
+        <input type="hidden" name="producto_nombre" value="set de tinturaa" />
+        <input type="hidden" name="producto_precio" value="200" />
+        <input type="hidden" name="producto_id" value="6" />
+        <input type="submit" value="Agregar al carrito" />
+        </form>
     </div>
 </div>
 </div>

@@ -20,7 +20,7 @@
               </a>
               <ul class="dropdown-menu text-small">
                 <li><a class="dropdown-item" href="inicia.php">iniciar sesion</a></li>
-                <li><a class="dropdown-item" href="#">'como comprar'</a></li>
+                <li><a class="dropdown-item" href="#">como comprar</a></li>
                 <li><hr class="dropdown-divider"></li>
                 <li><a class="dropdown-item" href="https://www.google.com/?hl=es">Cerrar</a></li>
               </ul>
@@ -39,7 +39,7 @@
 
       <ul>
         <li class="nav-link">
-        <button type="button" class="btn btn-outline-info"><a class="nav-link" href="inicia.php">productos</a></button>
+        <button type="button" class="btn btn-outline-info"><a class="nav-link" href="productos.php">productos</a></button>
         </li>
       </ul>
 

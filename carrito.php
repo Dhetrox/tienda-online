@@ -5,7 +5,7 @@
     <hr class="my-2">
 </div>
 
-<?php include ("config/plantilla.php") ?>
+<?php include ("mostrar2.php") ?>
 
 
 <?php include ("templade/pie.php") ?>

@@ -7,7 +7,7 @@
 	<link rel="stylesheet" type="text/css" href="css/Formulario.css">
     </head>
 <body>
-    <h1>Inicie para ser cliente</h1>
+    <h1>acceda para ser cliente</h1>
 
     <form method="post">
        <input type="text" name="Nombre" placeholder="Nombre completo">
