@@ -21,14 +21,6 @@ Importa el archivo tienda_online.sql incluido en el proyecto para crear las tabl
 
 Configura el archivo config.php (o el archivo de configuración que estés usando) con tus credenciales de MySQL:
 
-php
-Copiar código
-<?php
-$servername = "localhost";
-$username = "tu_usuario";
-$password = "tu_contraseña";
-$dbname = "tienda_online";
-?>
 Esto permitirá que el proyecto se conecte correctamente a la base de datos en tu entorno local.
 
 Instalación
